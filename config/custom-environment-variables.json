@@ -1,0 +1,16 @@
+{
+  "server": {
+    "port": "SERVER_PORT",
+    "host": "SERVER_HOST",
+    "protocol": "SERVER_PROTOCOL",
+    "session": {
+      "secret": "SERVER_SESSION_SECRET"
+    }
+  },
+  "game": {
+    "board": {
+      "size": "BOARD_SIZE",
+      "tokens": "TOKENS"
+    }
+  }
+}

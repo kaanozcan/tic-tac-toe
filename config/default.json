@@ -1,0 +1,16 @@
+{
+  "server": {
+    "port": 3000,
+    "host": "localhost:3000",
+    "protocol": "http",
+    "session": {
+      "secret": "some secret"
+    }
+  },
+  "game": {
+    "board": {
+      "size": 3,
+      "tokens": "X,O,Y"
+    }
+  }
+}

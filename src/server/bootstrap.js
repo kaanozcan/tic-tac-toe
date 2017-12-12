@@ -1,0 +1,2 @@
+require("../../hooks/babelHook");
+require("./");

@@ -1,0 +1,56 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "tic tac toe application running on reactjs and graphql",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node src/server/bootstrap.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaanozcan/tic-tac-toe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaanozcan/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/kaanozcan/tic-tac-toe#readme",
+  "dependencies": {
+    "apollo-server-express": "^1.2.0",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "config": "^1.28.1",
+    "express": "^4.16.2",
+    "graphql": "^0.11.7",
+    "graphql-subscriptions": "^0.5.5",
+    "graphql-tools": "^2.12.0",
+    "subscriptions-transport-ws": "~0.9.1"
+  },
+  "devDependencies": {
+    "apollo-cache-inmemory": "^1.1.4",
+    "apollo-client": "^2.0.4",
+    "apollo-link-http": "^1.3.1",
+    "apollo-link-ws": "^1.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.28.7",
+    "express-session": "^1.15.6",
+    "graphql-tag": "^2.6.0",
+    "lost": "^8.2.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.9",
+    "precss": "^2.0.0",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.10.0"
+  }
+}
