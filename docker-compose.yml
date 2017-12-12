@@ -1,0 +1,12 @@
+tic-tac-toe:
+  image: knozcan/tic-tac-toe:1.0.0
+  container_name: tic-tac-toe
+  environment:
+    SERVER_PORT: 3000
+    SERVER_HOST: localhost:3000
+    SERVER_PROTOCOL: http
+    SERVER_SESSION_SECRET: secret
+    BOARD_SIZE: 5
+    TOKENS: X,O,H
+  ports:
+    - "3000:3000"
