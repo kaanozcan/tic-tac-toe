@@ -1,6 +1,8 @@
 # tic-tac-toe
 Tic Tac Toe application running on reactjs and graphql. No AI I'm afraid.
 
+Copy the play url and open it in different browser.
+
 ## Environment Variables
 
 SERVER_PORT<Int> Port node instance listens: 3000
